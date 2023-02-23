@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.wa{
+    background-color: #25D366;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 20px;
+    bottom: 15%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 50% 50% 0 50%;
+}
+.wa i{
+    color: white;
+}
+.wa h6{
+    top: 50px;
+    position: absolute;
+}
+
+/* -----------------------------SECTION 1------------------------------ */
+/* -------------------------------------------------------------------- */
+.section1{
+    display: block;
+    overflow: hidden;    
+    background-color: #fff5f6;
+    width: 100%px;
+    height: 900px;
+    z-index: -2;
+}
+
+.mainTitle{    
+    text-align: center;
+    top: 50px;
+    text-shadow: 1px 5px 20px;
+    color: #ff69b4;
+    z-index: 2;       
+}
+.mainTitle h1{
+    font-size: 100px;
+    font-family: "alex_brushregular";
+    animation: mainTitle 7s infinite;
+    opacity: 0.5;
+}
+@keyframes mainTitle{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+
+
+/* -----------------IMAGE-------------- */
+.flower1{
+    width:40%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+    animation: flower 10s infinite;
+}
+@keyframes flower{
+    0%{
+        width:40%;
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+        width:45%;
+    }
+    100%{
+        width:40%;
+        opacity: 0.5;
+    }
+}
+.kelopak1{
+    z-index: 1;
+    width: 2%;
+    position: absolute;
+    animation: kelopak1 9s infinite;
+    top: -30px;
+    left: 20%;
+    opacity: 0;
+}
+.kelopak2{
+    z-index: 1;
+    width: 2%;
+    position: absolute;
+    animation: kelopak2 12s infinite;
+    top: -30px;
+    left: 20%;
+    opacity: 0;
+}
+.kelopak3{
+    z-index: 1;
+    width: 2%;
+    position: absolute;
+    animation: kelopak3 15s infinite;
+    top: -30px;
+    left: 20%;
+    opacity: 0;
+}
+
+@keyframes kelopak1{
+    0%{
+        top:-30px;
+        left: 20%;    
+        opacity: 0;    
+    }
+    40%{
+        opacity: 0.5;        
+    }
+    100%{
+        top: 650px;
+        opacity: 0;
+        left:0;        
+    }
+}
+@keyframes kelopak2{
+    0%{
+        top:-30px;
+        left: 20%;  
+        opacity: 0;      
+    }
+    40%{
+        opacity: 0.5;        
+    }
+    100%{
+        top: 650px;
+        opacity: 0;
+        left: 35%;
+    }
+}
+@keyframes kelopak3{
+    0%{
+        top:-30px;
+        left: 20%;
+        opacity: 0;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    100%{
+        top: 650px;
+        opacity: 0;
+        left: 70%;
+    }
+}
+.gambarProduct{
+    display: flex;
+    width: auto;
+    height: 400px;
+    margin: 100px auto;
+    
+}
+
+.imgPreviewP{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    z-index: 1;
+}
+/* -----------------NAVBAR------------- */
+.nav1{
+    position: absolute;
+    right: 0;
+    opacity: 0.5;
+    z-index: 10;
+    
+}
+a h5{    
+    transition: 0.5s;
+}
+a h5:hover {
+    color:#ff69b4;
+    
+    
+}
+
+
+

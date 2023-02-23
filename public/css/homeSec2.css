@@ -1,0 +1,45 @@
+
+/* -----------------------------SECTION 2------------------------------ */
+/* -------------------------------------------------------------------- */
+.section2{  
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    background-color: lightblue;
+    width: 100%px;
+    height: auto;
+    z-index: -1;
+    margin-bottom: -100px ;
+}
+.mainTitle2{   
+    margin-bottom: 60px;
+    text-align: center;
+    top: 50px;
+    text-shadow: 1px 5px 20px;
+    z-index: 1;       
+}
+.sec2Pembungkus{
+
+    margin-top: 30px;
+    width:  100%;
+    height: auto;
+    text-align: center;
+}
+.sec2Card{
+    display: inline-block;
+    margin: 30px 30px;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #ff69b4;
+}
+.sec2Card ul{ 
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.sec2Card ul li{
+    text-align: center;
+    margin: 0 15px 20px 15px;
+}

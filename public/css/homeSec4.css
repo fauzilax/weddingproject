@@ -1,0 +1,186 @@
+
+/* -----------------------------SECTION 4------------------------------ */
+/* -------------------------------------------------------------------- */
+.section4{
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    background-color: #fff5f6;
+    width: 100%px;
+    height: auto;
+    z-index: -1;
+    border-radius: 0 0 0 0;
+}
+.sec4Pembungkus{
+    margin-top: 30px;
+    width:  100%;
+    height: auto;
+    text-align: center;
+}
+.sec4Card{
+    padding: 20px 10px;
+    position: relative;
+    display: inline-block;
+    margin: 30px 30px;
+    width: 300px;
+    height: 700px;
+    background-color: #ff69b4;
+    border-radius: 20px 20px 50px 50px;
+    box-shadow: 5px 5px 20px #ff69b4;
+    z-index: 0;
+}
+.sec4CardP{
+    padding: 20px 10px;
+    position: relative;
+    display: inline-block;
+    margin: 30px 30px;
+    width: 300px;
+    height: 700px;
+    background-color: #ff69b4;
+    border-radius: 20px 20px 50px 50px;
+    box-shadow: 5px 5px 20px #ff69b4;
+    z-index: 0;
+}
+.sec4CardG{
+    padding: 20px 10px;
+    position: relative;
+    display: inline-block;
+    margin: 30px 30px;
+    width: 300px;
+    height: 700px;
+    background-color: #ff69b4;
+    border-radius: 20px 20px 50px 50px;
+    box-shadow: 5px 5px 20px #ff69b4;
+    z-index: 0;
+}
+.paketTitle{
+    
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.paketTitle h4{
+
+}
+.paketTitle h5{
+    
+}
+.paketTitle hr{
+    border: 3px solid white;
+}
+.sec4Card ul,.sec4CardG ul,.sec4CardP ul{  
+    z-index: 2;
+    line-height: 1250px;
+    padding: 0;
+    
+}
+.sec4Card ul li,.sec4CardP ul li,.sec4CardG ul li{    
+    margin: 20px 2px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+.activeBullet{
+    width: 13px;
+    height: 13x;
+    background-color: #d7be69;
+}
+.bullet{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #d7be69;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 1;
+}
+.bullet:active{
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+}
+.left{
+    
+    color: white;
+    text-align: left;
+    opacity: 0.3;
+}
+.right{
+    color: white;
+    text-align: right;
+    opacity: 0.3;
+}
+.left:hover{
+    opacity: 0.5;
+}
+.right:hover{
+    opacity: 0.5;
+}
+.left:active{
+    opacity: 0.8;
+}
+.right:active{
+    opacity: 0.8;
+}
+.tombol{
+    position: relative;
+    margin:  10px 10px;  
+    line-height: 750px; 
+    
+}
+.tombolKiri{
+    position: absolute;
+    left: 0;
+}
+.tombolKanan{
+    position: absolute;
+    right: 0;
+}
+.imgCover{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width:100%;
+    height: 85%;
+    top: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.imgPhoneCover{
+    width: 100%;
+}
+
+.imgBasic,.imgPrem,.imgGold{
+    top:120px ;
+    left: 0;
+    right: 0;
+    margin: 25px 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+.imgBList,.imgPList,.imgGList{
+    display: none;
+}
+.imgBShow,.imgPShow,.imgGShow{
+    margin-left: -5px;
+    width: 250px;
+    opacity: 0;
+    animation: imganim 1s forwards;
+}
+@keyframes imganim {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+  

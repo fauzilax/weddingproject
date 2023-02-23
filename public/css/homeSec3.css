@@ -1,0 +1,141 @@
+/* *{
+    background-color: #fff5f6;
+} */
+
+/* -----------------------------SECTION 3------------------------------ */
+/* -------------------------------------------------------------------- */
+.section3{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    background-color:  #d7be69;
+    width: 100%px;
+    height: auto;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.mainTitle3{   
+    margin-bottom: 60px;
+    text-align: center;
+    top: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px #ff69b4;
+    z-index: 1;       
+}
+
+.sec3Pembungkus{
+    margin-top: 30px;
+    width:  100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.sec3CardLeft{
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    margin: 30px 20px;
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #ff69b4;
+    opacity: 0.5;
+    z-index: -1;
+}
+.sec3CardCenter{
+    position: relative;
+    margin: 30px auto;
+    width: 400px;
+    height: 550px;
+    background-color: pink;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #ff69b4;
+    z-index: 1;
+}
+.sec3CardRight{
+    position: absolute;
+    top: 250px;
+    right: 15px;
+    margin: 30px 20px;
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #ff69b4;
+    opacity: 0.5;
+    z-index: -1;
+}
+.sec3CardCenter h3,.sec3CardLeft h3,.sec3CardRight h3{
+    padding: 20px 15px;
+    color: #d7be69;
+}
+
+
+
+/*=========================== TOMBOL========================= */
+/* ========================================================== */
+.tombolSec3{ 
+    line-height: 400px; 
+    z-index: 1;
+    
+}
+.tombolKiriSec3{
+    position: absolute;
+    left: 0;
+    margin-left: -40px;
+}
+.tombolKananSec3{
+    position: absolute;
+    right: 0;
+    margin-right: -40px;
+}
+.leftSec3{    
+    color: white;
+    text-align: left;
+    opacity: 0.3;
+}
+.rightSec3{
+    color: white;
+    text-align: right;
+    opacity: 0.3;
+}
+.leftSec3:hover{
+    opacity: 0.5;
+}
+.rightSec3:hover{
+    opacity: 0.5;
+}
+.leftSec3:active{
+    opacity: 0.8;
+}
+.rightSec3:active{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .sec3CardLeft{
+        display: none;
+    }
+    .sec3CardRight{
+        display: none;
+    }
+}
+
+
+
