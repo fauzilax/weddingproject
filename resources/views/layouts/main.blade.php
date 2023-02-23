@@ -34,13 +34,7 @@
 
     @yield('body')
 
-
-
-
-
-
-
-
+  {{-- Still Progress --}}
 
 
 
